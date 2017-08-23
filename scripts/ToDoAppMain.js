@@ -20,10 +20,8 @@ require.config({
 
 require([
     "backbone",
-    "views/main-application",
     "routers/router"
-], function(Backbone, AppView, Router) {
-    new AppView();
+], function(Backbone, Router) {
     Backbone.history.start();
     new Router();
 });

@@ -14,7 +14,8 @@ require.config({
     paths: {
         "backbone": "../node_modules/backbone/backbone",
         "underscore": "../node_modules/underscore/underscore",
-        "jquery": "../node_modules/jquery/dist/jquery"
+        "jquery": "../node_modules/jquery/dist/jquery",
+        "hbs": "../node_modules/require-handlebars-plugin/hbs"
     }
 });
 

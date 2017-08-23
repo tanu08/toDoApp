@@ -6,10 +6,11 @@ define(["backbone",
 
     return Backbone.Router.extend({
         "routes": {
-            "(/)": "loadMainPage"
+            "/": "loadMainPage"
         },
         initialize: function() {
             this.main = new mainView();
+            this.loadMainPage();
         },
         loadMainPage: function() {
             this.main.render();
